@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -47,9 +48,13 @@ namespace ChallengesWithTestsMark8
             {
                 return 0;
             }
+            if (numbers.Count() == 1)
+            {
+                return numbers.First() + numbers.First();
+            }
 
-            double max = double.MaxValue;
-            double min = double.MinValue;
+            double max = 0;
+            double min = 0;
 
             foreach (double number in numbers)
             {
@@ -90,7 +95,7 @@ namespace ChallengesWithTestsMark8
             {
                 result += numbers[i];
             }
-            return answer;
+            return result;
         }
 
         public int SumEvens(int[] numbers)
@@ -121,7 +126,7 @@ namespace ChallengesWithTestsMark8
             {
                 result += number;
             }
-            return (sum % 2 != 0);
+            return (result % 2 != 0);
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
