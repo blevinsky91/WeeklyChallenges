@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+5sms7YvdmSQKSHh/nN6mBdxxL2820s8ydDICn9LmTGT7KKNs0/lf9LTgcRC8YoE+Lmwe9IEiJz1hPABbGPk5g==",
+  "dgSpecHash": "tGuPdTMgaD2c5wAAp5d2DcFdf0o6d/Fa039w8vB/5Z6ZUdzxVlCiY5SxZzHXgf9muzwfAHG+Y/ToU5kdl0DDCw==",
   "success": true,
   "projectFilePath": "/Users/brandonlevinsky/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/brandonlevinsky/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.19/microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
+    "/Users/brandonlevinsky/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.19/microsoft.netcore.app.host.osx-x64.6.0.19.nupkg.sha512",
+    "/Users/brandonlevinsky/.nuget/packages/microsoft.netcore.app.ref/6.0.19/microsoft.netcore.app.ref.6.0.19.nupkg.sha512"
+  ],
   "logs": []
 }
